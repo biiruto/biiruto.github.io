@@ -33,8 +33,8 @@ function predictOnLoad() {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('C:/Users/brian/Desktop/c/pnemoia-analyzer/model_tb_1/model.json');
-	$("#selected-image").attr("src", "C:/Users/brian/Desktop/c/pnemoia-analyzer/assets/tb.jpg");
+	model = await tf.loadModel('https://github.com/biiruto/biiruto.github.io/blob/master/model_tb_1/model.json');
+	$("#selected-image").attr("src", "https://github.com/biiruto/biiruto.github.io/blob/master/assets/tb_image.jpg");
 	
 	// Hide the model loading spinner
 	// This line of html gets hidden:
